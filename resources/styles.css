@@ -1,0 +1,59 @@
+text {
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+}
+
+.header {
+  font-family: System-Regular;
+  font-size: 35;
+}
+
+.pokemon-name {
+  font-family: System-Light;
+  font-size: 35;
+}
+
+.sub-heading {
+  font-family: System-Light;
+  font-size: 30;
+}
+
+.paragraph {
+  font-family: System-Light;
+  font-size: 25;
+}
+
+.left {
+  text-anchor: start;
+}
+
+.goal-container {
+  width: 70%; 
+  height: 2%; 
+  x: 17%; 
+  y: 79%; 
+  fill: grey;
+}
+
+.goal-percent {
+  height: 2%; 
+  x: 17%; 
+  y: 79%; 
+  fill: green;
+}
+
+.p-exp-container {
+  width: 65%; 
+  height: 2%; 
+  x: 26%; 
+  y: 23%; 
+  fill: grey;
+}
+
+.p-goal-percent {
+  height: 2%; 
+  x: 26%; 
+  y: 23%; 
+  fill: green;
+}

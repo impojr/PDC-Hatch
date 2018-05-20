@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "cb7649a3-639e-4c1f-904e-4d300b260bfd",
+    "appType": "app",
+    "appDisplayName": "PDC Hatch",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_user_profile",
+      "access_activity",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "PDC Hatch"
+      }
+    }
+  }
+}

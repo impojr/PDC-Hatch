@@ -1,0 +1,220 @@
+<svg>
+  <image href="Images/bg.png" width="100%" height="100%" />
+  <svg id="Home" class="holder">
+    <image id="h-player-image" href="Images/User/female.png" x="7%" y="5%" width="29" height="36"/>
+    <image id="h-dex" href="Images/dex.png" x="80%" y="6%" width="30" height="30"/>
+    <text id="h-player-name" class="header left" x="19%" y="17%">Green</text>
+    <line x1="0%" y1="17%" x2="100%" y2="17%" fill="white" stroke-width="1" />
+    
+    <text id="h-player-rank" class="sub-heading left" x="17%" y="34%">Master Hatcher</text>
+    <text class="paragraph left" x="17%" y="44%">walking</text>
+    <image id="h-pokemon-image" href="Images/Pokemon/3.png" width="40" height="30" x="17%" y="52%"/>
+    <text id="h-pokemon-name" class="pokemon-name left" pointer-events="all"  x="32%" y="60%" >Venusaur</text>
+    
+    <text class="paragraph left" x="17%" y="76%">Daily Goal</text>
+    <text id="h-goal-percent-text" class="paragraph left" x="17%" y="89%">10%</text>
+    <rect class="goal-container" />
+    <rect id="h-goal-percent" class="goal-percent" />
+    
+    <svg width="50%" height="2%" x="50%" y="80%">
+      <use id="h-btn-br" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Sync" />
+      </use>
+    </svg>
+  </svg>
+  <svg id="GoalMet" class="holder">
+    <image id="gm-player-image" href="Images/User/female.png" x="7%" y="5%" width="29" height="36"/>
+    <text id="gm-player-name" class="header left" x="19%" y="17%">Green</text>
+    <line x1="0%" y1="17%" x2="100%" y2="17%" fill="white" stroke-width="1" />
+    
+    <text class="sub-heading" x="50%" y="34%">Daily Goal Reached!</text>
+    <text class="paragraph" x="50%" y="44%">Great Job!</text>
+    <text class="paragraph" x="50%" y="52%">You collected an Egg!</text>
+    <image href="Images/Pokemon/egg.png" x="35%" y="48%" width="96" height="96"/>
+    <text class="paragraph" x="50%" y="80%">Make this egg your partner?</text>
+    <svg width="50%" height="2%" x="0" y="80%">
+      <use id="gm-button-yes" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Yes" />
+      </use>
+    </svg>
+    <svg width="50%" height="2%" x="50%" y="80%">
+      <use id="gm-button-no" href="#square-button" y="5" fill="fb-red">
+        <set href="#text" attributeName="text-buffer" to="No" />
+      </use>
+    </svg>
+  </svg>
+  <svg id="Pokemon" class="holder">
+    <image id="p-pokemon-image" href="Images/Pokemon/unknown.png" x="5%" y="8%" width="40" height="30"/>
+    <text id="p-pokemon-name" class="header left" x="19%" y="17%">Pokemon</text>
+    
+    <rect class="p-exp-container" />
+    <rect id="p-exp-percent" class="p-goal-percent" />
+    
+    <text id="p-pokemon-level" class="paragraph left" x="7%" y="27%">EGG</text>
+    <text id="p-pokemon-hatched" class="paragraph" x="50%" y="40%">hatched: 00/00/0000</text>
+    
+    <image id="p-pokemon-hearts" href="Images/Hearts/hearts-0.png" x="27%" y="50%" width="134" height="44"/>
+    
+    <text id="p-pokemon-steps" class="paragraph" x="50%" y="78%">1000000 steps walked</text>
+    
+    <svg id="p-button-holder" width="60%" height="2%" x="20%" y="80%">
+      <use id="p-button-partner" href="#square-button" y="5" fill="fb-black">
+        <set href="#text" attributeName="text-buffer" to="Make Partner" />
+      </use>
+    </svg>
+    <text id="p-text-partner" class="paragraph" x="50%" y="92%">this is your partner</text>
+  </svg>
+  <svg id="Menu" class="holder">
+    <svg width="80%" height="2%" x="10%" y="10%">
+      <use id="m-btn-home" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Home" />
+      </use>
+    </svg>
+    
+    <svg width="80%" height="2%" x="10%" y="35%">
+      <use id="m-btn-partner" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Partner" />
+      </use>
+    </svg>
+    
+    <svg width="80%" height="2%" x="10%" y="60%">
+      <use id="m-btn-pc" href="#square-button" y="5" fill="fb-green">
+        <set href="#text" attributeName="text-buffer" to="Pc" />
+      </use>
+    </svg>
+  </svg>
+  <svg id="Error" class="holder">
+    <text class="header left" x="5%" y="17%">Please reconnect.</text>
+    <textarea x="5%" y="25%" width="100%-20"
+    font-family="System-Regular" fill="white" font-size="24">Please reconnect to the companion via the fitbit app.</textarea>
+     <svg width="80%" height="10%" x="10%" y="80%">
+      <use id="er-return" href="#square-button" y="5" fill="fb-white">
+        <set href="#text" attributeName="text-buffer" to="Okay" />
+      </use>
+    </svg>
+  </svg>
+  <use id="Pc" class="holder" href="#panoramaview">
+    <use id="Pc-1" href="#panoramaview-item">
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="25"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="25"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="25"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="80"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="80"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="80"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="135"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="135"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="135"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="190"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="190"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="190"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="245"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="245"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="245"/>
+    </use>
+    <use id="Pc-2" href="#panoramaview-item">
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="25"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="25"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="25"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="80"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="80"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="80"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="135"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="135"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="135"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="190"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="190"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="190"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="245"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="245"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="245"/>
+    </use>
+    <use id="Pc-3" href="#panoramaview-item">
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="25"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="25"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="25"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="80"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="80"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="80"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="135"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="135"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="135"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="190"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="190"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="190"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="245"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="245"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="245"/>
+    </use>
+    <use id="Pc-4" href="#panoramaview-item">
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="25"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="25"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="25"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="80"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="80"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="80"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="135"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="135"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="135"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="190"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="190"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="190"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="245"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="245"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="245"/>
+    </use>
+    <use id="Pc-5" href="#panoramaview-item">
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="25"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="25"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="25"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="80"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="80"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="80"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="135"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="135"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="135"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="190"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="190"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="190"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="245"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="245"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="245"/>
+    </use>
+    <use id="Pc-6" href="#panoramaview-item">
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="25"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="25"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="215" y="25"/>
+      
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="45" y="80"/>
+      <image class="pc-image" href="Images/Pokemon/unknown.png" pointer-events="all" width="40" height="30" x="130" y="80"/>
+    </use>
+    <use id="pagination-dots" href="#pagination-widget" y="8">
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-dot" />
+      <use href="#pagination-highlight-dot" />
+    </use>
+  </use>
+</svg>

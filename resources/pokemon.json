@@ -1,0 +1,758 @@
+[{
+		"id": 1,
+		"name": "Bulbasaur",
+		"evolves": 16,
+		"into": 2
+	},
+	{
+		"id": 2,
+		"name": "Ivysaur",
+		"evolves": 32,
+		"into": 3
+	},
+	{
+		"id": 3,
+		"name": "Venusaur",
+		"mega": true
+	},
+	{
+		"id": 4,
+		"name": "Charmander",
+		"evolves": 16,
+		"into": 5
+	},
+	{
+		"id": 5,
+		"name": "Charmeleon",
+		"evolves": 36,
+		"into": 6
+	},
+	{
+		"id": 6,
+		"name": "Charizard",
+		"mega": true
+	},
+	{
+		"id": 7,
+		"name": "Squirtle",
+		"evolves": 16,
+		"into": 8
+	},
+	{
+		"id": 8,
+		"name": "Wartortle",
+		"evolves": 36,
+		"into": 9
+	},
+	{
+		"id": 9,
+		"name": "Blastoise",
+		"mega": true
+	},
+	{
+		"id": 10,
+		"name": "Caterpie",
+		"evolves": 7,
+		"into": 11
+	},
+	{
+		"id": 11,
+		"name": "Metapod",
+		"evolves": 10,
+		"into": 12
+	},
+	{
+		"id": 12,
+		"name": "Butterfree"
+	},
+	{
+		"id": 13,
+		"name": "Weedle",
+		"evolves": 7,
+		"into": 14
+	},
+	{
+		"id": 14,
+		"name": "Kakuna",
+		"evolves": 10,
+		"into": 15
+	},
+	{
+		"id": 15,
+		"name": "Beedrill",
+		"mega": true
+	},
+	{
+		"id": 16,
+		"name": "Pidgey",
+		"evolves": 18,
+		"into": 17
+	},
+	{
+		"id": 17,
+		"name": "Pidgeotto",
+		"evolves": 36,
+		"into": 18
+	},
+	{
+		"id": 18,
+		"name": "Pidgeot",
+		"mega": true
+	},
+	{
+		"id": 19,
+		"name": "Rattata",
+		"evolves": 20,
+		"into": 20
+	},
+	{
+		"id": 20,
+		"name": "Raticate"
+	},
+	{
+		"id": 21,
+		"name": "Spearow",
+		"evolves": 20,
+		"into": 22
+	},
+	{
+		"id": 22,
+		"name": "Fearow"
+	},
+	{
+		"id": 23,
+		"name": "Ekans",
+		"evolves": 22,
+		"into": 24
+	},
+	{
+		"id": 24,
+		"name": "Arbok"
+	},
+	{
+		"id": 25,
+		"name": "Pikachu",
+		"evolves": 30,
+		"into": 26
+	},
+	{
+		"id": 26,
+		"name": "Raichu"
+	},
+	{
+		"id": 27,
+		"name": "Sandshrew",
+		"evolves": 22,
+		"into": 28
+	},
+	{
+		"id": 28,
+		"name": "Sandslash"
+	},
+	{
+		"id": 29,
+		"name": "Nidoran♀",
+		"evolves": 16,
+		"into": 30
+	},
+	{
+		"id": 30,
+		"name": "Nidorina",
+		"evolves": 40,
+		"into": 31
+	},
+	{
+		"id": 31,
+		"name": "Nidoqueen"
+	},
+	{
+		"id": 32,
+		"name": "Nidoran♂",
+		"evolves": 16,
+		"into": 33
+	},
+	{
+		"id": 33,
+		"name": "Nidorino",
+		"evolves": 40,
+		"into": 34
+	},
+	{
+		"id": 34,
+		"name": "Nidoking"
+	},
+	{
+		"id": 35,
+		"name": "Clefairy",
+		"evolves": 28,
+		"into": 36
+	},
+	{
+		"id": 36,
+		"name": "Clefable"
+	},
+	{
+		"id": 37,
+		"name": "Vulpix",
+		"evolves": 35,
+		"into": 38
+	},
+	{
+		"id": 38,
+		"name": "Ninetales"
+	},
+	{
+		"id": 39,
+		"name": "Jigglypuff",
+		"evolves": 28,
+		"into": 40
+	},
+	{
+		"id": 40,
+		"name": "Wigglytuff"
+	},
+	{
+		"id": 41,
+		"name": "Zubat",
+		"evolves": 22,
+		"into": 42
+	},
+	{
+		"id": 42,
+		"name": "Golbat"
+	},
+	{
+		"id": 43,
+		"name": "Oddish",
+		"evolves": 21,
+		"into": 44
+	},
+	{
+		"id": 44,
+		"name": "Gloom",
+		"evolves": 38,
+		"into": 45
+	},
+	{
+		"id": 45,
+		"name": "Vileplume"
+	},
+	{
+		"id": 46,
+		"name": "Paras",
+		"evolves": 24,
+		"into": 47
+	},
+	{
+		"id": 47,
+		"name": "Parasect"
+	},
+	{
+		"id": 48,
+		"name": "Venonant",
+		"evolves": 31,
+		"into": 49
+	},
+	{
+		"id": 49,
+		"name": "Venomoth"
+	},
+	{
+		"id": 50,
+		"name": "Diglett",
+		"evolves": 26,
+		"into": 51
+	},
+	{
+		"id": 51,
+		"name": "Dugtrio"
+	},
+	{
+		"id": 52,
+		"name": "Meowth",
+		"evolves": 28,
+		"into": 53
+	},
+	{
+		"id": 53,
+		"name": "Persian"
+	},
+	{
+		"id": 54,
+		"name": "Psyduck",
+		"evolves": 33,
+		"into": 55
+	},
+	{
+		"id": 55,
+		"name": "Golduck"
+	},
+	{
+		"id": 56,
+		"name": "Mankey",
+		"evolves": 28,
+		"into": 57
+	},
+	{
+		"id": 57,
+		"name": "Primeape"
+	},
+	{
+		"id": 58,
+		"name": "Growlithe",
+		"evolves": 35,
+		"into": 59
+	},
+	{
+		"id": 59,
+		"name": "Arcanine"
+	},
+	{
+		"id": 60,
+		"name": "Poliwag",
+		"evolves": 25,
+		"into": 61
+	},
+	{
+		"id": 61,
+		"name": "Poliwhirl",
+		"evolves": 38,
+		"into": 62
+	},
+	{
+		"id": 62,
+		"name": "Poliwrath"
+	},
+	{
+		"id": 63,
+		"name": "Abra",
+		"evolves": 16,
+		"into": 64
+	},
+	{
+		"id": 64,
+		"name": "Kadabra",
+		"evolves": 45,
+		"into": 65
+	},
+	{
+		"id": 65,
+		"name": "Alakazam",
+		"mega": true
+	},
+	{
+		"id": 66,
+		"name": "Machop",
+		"evolves": 28,
+		"into": 67
+	},
+	{
+		"id": 67,
+		"name": "Machoke",
+		"evolves": 45,
+		"into": 68
+	},
+	{
+		"id": 68,
+		"name": "Machamp"
+	},
+	{
+		"id": 69,
+		"name": "Bellsprout",
+		"evolves": 21,
+		"into": 70
+	},
+	{
+		"id": 70,
+		"name": "Weepinbell",
+		"evolves": 38,
+		"into": 71
+	},
+	{
+		"id": 71,
+		"name": "Victreebel"
+	},
+	{
+		"id": 72,
+		"name": "Tentacool",
+		"evolves": 30,
+		"into": 73
+	},
+	{
+		"id": 73,
+		"name": "Tentacruel"
+	},
+	{
+		"id": 74,
+		"name": "Geodude",
+		"evolves": 25,
+		"into": 75
+	},
+	{
+		"id": 75,
+		"name": "Graveler",
+		"evolves": 45,
+		"into": 76
+	},
+	{
+		"id": 76,
+		"name": "Golem"
+	},
+	{
+		"id": 77,
+		"name": "Ponyta",
+		"evolves": 40,
+		"into": 78
+	},
+	{
+		"id": 78,
+		"name": "Rapidash"
+	},
+	{
+		"id": 79,
+		"name": "Slowpoke",
+		"evolves": 37,
+		"into": 80
+	},
+	{
+		"id": 80,
+		"name": "Slowbro",
+		"mega": true
+	},
+	{
+		"id": 81,
+		"name": "Magnemite",
+		"evolves": 30,
+		"into": 82
+	},
+	{
+		"id": 82,
+		"name": "Magneton"
+	},
+	{
+		"id": 83,
+		"name": "Farfetch'd"
+	},
+	{
+		"id": 84,
+		"name": "Doduo",
+		"evolves": 31,
+		"into": 85
+	},
+	{
+		"id": 85,
+		"name": "Dodrio"
+	},
+	{
+		"id": 86,
+		"name": "Seel",
+		"evolves": 34,
+		"into": 87
+	},
+	{
+		"id": 87,
+		"name": "Dewgong"
+	},
+	{
+		"id": 88,
+		"name": "Grimer",
+		"evolves": 38,
+		"into": 89
+	},
+	{
+		"id": 89,
+		"name": "Muk"
+	},
+	{
+		"id": 90,
+		"name": "Shellder",
+		"evolves": 35,
+		"into": 91
+	},
+	{
+		"id": 91,
+		"name": "Cloyster"
+	},
+	{
+		"id": 92,
+		"name": "Gastly",
+		"evolves": 25,
+		"into": 93
+	},
+	{
+		"id": 93,
+		"name": "Haunter",
+		"evolves": 45,
+		"into": 94
+	},
+	{
+		"id": 94,
+		"name": "Gengar",
+		"mega": true
+	},
+	{
+		"id": 95,
+		"name": "Onix"
+	},
+	{
+		"id": 96,
+		"name": "Drowzee",
+		"evolves": 26,
+		"into": 97
+	},
+	{
+		"id": 97,
+		"name": "Hypno"
+	},
+	{
+		"id": 98,
+		"name": "Krabby",
+		"evolves": 28,
+		"into": 99
+	},
+	{
+		"id": 99,
+		"name": "Kingler"
+	},
+	{
+		"id": 100,
+		"name": "Voltorb",
+		"evolves": 30,
+		"into": 101
+	},
+	{
+		"id": 101,
+		"name": "Electrode"
+	},
+	{
+		"id": 102,
+		"name": "Exeggcute",
+		"evolves": 35,
+		"into": 103
+	},
+	{
+		"id": 103,
+		"name": "Exeggutor"
+	},
+	{
+		"id": 104,
+		"name": "Cubone",
+		"evolves": 28,
+		"into": 105
+	},
+	{
+		"id": 105,
+		"name": "Marowak"
+	},
+	{
+		"id": 106,
+		"name": "Hitmonlee"
+	},
+	{
+		"id": 107,
+		"name": "Hitmonchan"
+	},
+	{
+		"id": 108,
+		"name": "Lickitung"
+	},
+	{
+		"id": 109,
+		"name": "Koffing",
+		"evolves": 35,
+		"into": 110
+	},
+	{
+		"id": 110,
+		"name": "Weezing"
+	},
+	{
+		"id": 111,
+		"name": "Rhyhorn",
+		"evolves": 42,
+		"into": 112
+	},
+	{
+		"id": 112,
+		"name": "Rhydon"
+	},
+	{
+		"id": 113,
+		"name": "Chansey"
+	},
+	{
+		"id": 114,
+		"name": "Tangela"
+	},
+	{
+		"id": 115,
+		"name": "Kangaskhan",
+		"mega": true
+	},
+	{
+		"id": 116,
+		"name": "Horsea",
+		"evolves": 32,
+		"into": 117
+	},
+	{
+		"id": 117,
+		"name": "Seadra"
+	},
+	{
+		"id": 118,
+		"name": "Goldeen",
+		"evolves": 33,
+		"into": 119
+	},
+	{
+		"id": 119,
+		"name": "Seaking"
+	},
+	{
+		"id": 120,
+		"name": "Staryu",
+		"evolves": 35,
+		"into": 121
+	},
+	{
+		"id": 121,
+		"name": "Starmie"
+	},
+	{
+		"id": 122,
+		"name": "Mr. Mime"
+	},
+	{
+		"id": 123,
+		"name": "Scyther"
+	},
+	{
+		"id": 124,
+		"name": "Jynx"
+	},
+	{
+		"id": 125,
+		"name": "Electabuzz"
+	},
+	{
+		"id": 126,
+		"name": "Magmar"
+	},
+	{
+		"id": 127,
+		"name": "Pinsir",
+		"mega": true
+	},
+	{
+		"id": 128,
+		"name": "Tauros"
+	},
+	{
+		"id": 129,
+		"name": "Magikarp",
+		"evolves": 20,
+		"into": 130
+	},
+	{
+		"id": 130,
+		"name": "Gyarados",
+		"mega": true
+	},
+	{
+		"id": 131,
+		"name": "Lapras"
+	},
+	{
+		"id": 132,
+		"name": "Ditto"
+	},
+	{
+		"id": 133,
+		"name": "Eevee",
+		"evolves": 30,
+		"into": [134, 135, 136]
+	},
+	{
+		"id": 134,
+		"name": "Vaporeon"
+	},
+	{
+		"id": 135,
+		"name": "Jolteon"
+	},
+	{
+		"id": 136,
+		"name": "Flareon"
+	},
+	{
+		"id": 137,
+		"name": "Porygon"
+	},
+	{
+		"id": 138,
+		"name": "Omanyte",
+		"evolves": 40,
+		"into": 139
+	},
+	{
+		"id": 139,
+		"name": "Omastar"
+	},
+	{
+		"id": 140,
+		"name": "Kabuto",
+		"evolves": 40,
+		"into": 141
+	},
+	{
+		"id": 141,
+		"name": "Kabutops"
+	},
+	{
+		"id": 142,
+		"name": "Aerodactyl",
+		"mega": true
+	},
+	{
+		"id": 143,
+		"name": "Snorlax"
+	},
+	{
+		"id": 144,
+		"name": "Articuno"
+	},
+	{
+		"id": 145,
+		"name": "Zapdos"
+	},
+	{
+		"id": 146,
+		"name": "Moltres"
+	},
+	{
+		"id": 147,
+		"name": "Dratini",
+		"evolves": 30,
+		"into": 148
+	},
+	{
+		"id": 148,
+		"name": "Dragonair",
+		"evolves": 55,
+		"into": 149
+	},
+	{
+		"id": 149,
+		"name": "Dragonite"
+	},
+	{
+		"id": 150,
+		"name": "Mewtwo",
+		"mega": true
+	},
+	{
+		"id": 151,
+		"name": "Mew"
+	}
+]
