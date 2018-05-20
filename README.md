@@ -14,7 +14,7 @@ As this is not my IP, I am not able to upload this onto the GAM, but follow thes
 - Callback URL:
   **https://app-settings.fitbitdevelopercontent.com/simple-redirect.html**
   
-2. Download the PDC-Hatch files and create an empty project in Fitbit Studio. Copy over all the files.
+2. Download the PDC-Hatch files and create an empty project in Fitbit Studio. Copy over all the files (except the readme).
 
 2. Enter your **OAuth 2.0 Client ID** and **Client Secret** into
    `settings/index.jsx`
