@@ -84,8 +84,8 @@
     </svg>
   </svg>
   <svg id="Error" class="holder">
-    <text class="header left" x="5%" y="17%">Please reconnect.</text>
-    <textarea x="5%" y="25%" width="100%-20"
+    <text class="header left" x="5%" y="17%">Error during sync.</text>
+    <textarea id="er-text" x="5%" y="25%" width="100%-20"
     font-family="System-Regular" fill="white" font-size="24">Please reconnect to the companion via the fitbit app.</textarea>
      <svg width="80%" height="10%" x="10%" y="80%">
       <use id="er-return" href="#square-button" y="5" fill="fb-white">
@@ -217,4 +217,5 @@
       <use href="#pagination-highlight-dot" />
     </use>
   </use>
+  <use id="spinner" href="#spinner" />
 </svg>

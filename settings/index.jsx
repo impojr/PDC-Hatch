@@ -10,8 +10,8 @@ function mySettings(props) {
           status="Login"
           authorizeUrl="https://www.fitbit.com/oauth2/authorize"
           requestTokenUrl="https://api.fitbit.com/oauth2/token"
-          clientId="XXXXXXXXXX"
-          clientSecret="XXXXXXXXXX"
+          clientId="22CSPL"
+          clientSecret="fb5da283472bfec9d72620ef9c7d0a76"
           scope="activity"
         />
       </Section>
