@@ -21,8 +21,17 @@ As this is not my IP, I am not able to upload this onto the GAM, but follow thes
 
 3. After installing the project from Fitbit Studio, you need to login to the
    Fitbit Web API using the settings page within the Fitbit mobile application
+   
+## Connecting to the web API
+
+If you try to sync your app without giving the correct permissions, you will be directed to the error screen.
+To fix this, go to:
+your Fitbit app > click the versa icon on the top left > Developer Menu > PDC Hatch (under sideloaded apps) > settings > login > follow the prompts.
+
+This will grant permissions for a limited time. You will need to repeat this process every time the permissions expire.
 
 ## How to Play
+
 There is no tutorial in PDC, the limited memory space really doesn't allow it. So, here's how to use PDC:
 
 ### Syncing Steps
